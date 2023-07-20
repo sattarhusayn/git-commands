@@ -38,6 +38,15 @@ git marge //upore comment deyar por ata dite hobe. na dile change dekha jabena
 git pull //uporer 2 comment er kaj ei comment dile hoye jabe 
 
 
+repository theke modify korle abar stage niye  repository nite hobe
+git checkout file.txt // delete kora file ana jai
+git checkout -f // all delete kora file asbe
+git log //log dekha jabe
+git log -p -1 //Last 1 log dekhabe
+
+https://www.youtube.com/watch?v=M-qSAdWFs9c&t=107s&t=38m00s //kono file track na korte chaile
+
+
 //Some comment
 ls --lart //show hidden file
 touch file.txt //new file make kora
