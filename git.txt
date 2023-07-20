@@ -9,7 +9,7 @@ rm fileName // avabe delete kora valo
 git rm file.txt -f //er kaj holo file er vitor change holeo delete kora jabe
 git rm --cached file.txt //er kaj holo file er vitor er contant delete korbe but file delete korbe na 
 git rm -r folderName // er kaj holo ei folder all file abong folder delete kora
-touch //new file make kora
+
 
 
 //stage tola
@@ -40,6 +40,7 @@ git pull //uporer 2 comment er kaj ei comment dile hoye jabe
 
 //Some comment
 ls --lart //show hidden file
+touch file.txt //new file make kora
 
 ---------------------------------------------------------------
 git init
