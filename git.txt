@@ -1,3 +1,41 @@
+git init //er kaj holo folder najor rakha
+git clone url //er kaj holo repository download kora
+git status //er kaj holo status check kora
+git reset --hard //er kaj holo manual delete file keo niye asa
+rm fileName // avabe delete kora valo
+git rm file.txt -f //er kaj holo file er vitor change holeo delete kora jabe
+git rm --cached file.txt //er kaj holo file er vitor er contant delete korbe but file delete korbe na 
+git rm -r folderName // er kaj holo ei folder all file abong folder delete kora
+touch //new file make kora
+
+
+//stage tola
+git --all ba git -A //er kaj kaj holo stage a tola
+git add . //er kaj holo current directory all file ba folder stage a tola
+git add * //er kaj holo delete file ba folder stage a tolbe na
+git add file.txt ba git add myfolder/file.txt //er kaj holo nirdisto filke stage tola
+git add *.txt //er kaj holo file er format anujaye all file stage tole diya
+git reset //er kaj holo reset dile stage theke working directory neme jabe
+
+//commit
+git commit -m "comment"  //er kaj holo stage theke repository tola
+git reset HEAD~ //er kaj holo repository theke working directory neme jabe
+
+
+//branch
+git branch //er kaj holo koita branch ache check kora
+git branch branchName //new branch make kora
+git checkout branchName //Branch switch kora
+git merge branchName -m "merging on main with branchName"//current Branch theke marge korle jar shathe marge korlam tar sob data peye gelam. current Branch pabe but jar shathe korlam se pabe na
+
+//remote push
+git push origin branchName //local theke remote neya
+git fetch //ar kaj holo remote theke local a niye asa
+git marge //upore comment deyar por ata dite hobe. na dile change dekha jabena 
+git pull //uporer 2 comment er kaj ei comment dile hoye jabe 
+
+
+---------------------------------------------------------------
 git init
 git add .
 git commit -m "commit message"
