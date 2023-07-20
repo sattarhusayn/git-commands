@@ -1,3 +1,6 @@
+git config --global user.name name // prothome name set kore nite hobe
+git config --global user.email email@.com //ekhane email set kore nite hobe
+
 git init //er kaj holo folder najor rakha
 git clone url //er kaj holo repository download kora
 git status //er kaj holo status check kora
@@ -34,6 +37,9 @@ git fetch //ar kaj holo remote theke local a niye asa
 git marge //upore comment deyar por ata dite hobe. na dile change dekha jabena 
 git pull //uporer 2 comment er kaj ei comment dile hoye jabe 
 
+
+//Some comment
+ls --lart //show hidden file
 
 ---------------------------------------------------------------
 git init
