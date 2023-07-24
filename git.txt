@@ -37,6 +37,10 @@ git fetch //ar kaj holo remote theke local a niye asa
 git marge //upore comment deyar por ata dite hobe. na dile change dekha jabena 
 git pull //uporer 2 comment er kaj ei comment dile hoye jabe 
 
+//remote upload
+git remote add origin https://github.com/sattarhusayn/pos-app.git
+git branch -M main
+git push -u origin main
 
 repository theke modify korle abar stage niye  repository nite hobe
 git checkout file.txt // delete kora file ana jai
