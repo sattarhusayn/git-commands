@@ -50,15 +50,3 @@ https://www.youtube.com/watch?v=M-qSAdWFs9c&t=107s&t=38m00s //kono file track na
 //Some comment
 ls --lart //show hidden file
 touch file.txt //new file make kora
-
----------------------------------------------------------------
-git init
-git add .
-git commit -m "commit message"
-git branch -M main (if branch is master/main see that)
-git remote add origin <GitHub link>
-git push -u origin main
-git branch -M master
-git push -u origin master
-
-git status
